@@ -25,16 +25,16 @@ const pagesItems = [
 
 const Header = () => {
   return (
-    <header className="w-95 lg:w-fit bg-blue-900/75 m-auto rounded-md shadow-lg shadow-blue-900 fixed left-0 right-0">
+    <header className="w-fit bg-blue-900/75 m-auto rounded-xl fixed left-0 right-0">
       <nav className="flex justify-around py-2 px-6">
-        <ul className="flex gap-5 items-center">
+        <ul className="flex gap-9 items-center">
           {pagesItems.map((link) => (
             <li key={link.arial}>
-              <a href={link.url}>
+              <a href={link.url} className="flex gap-3 items-center">
+                <link.icon className="filter drop-shadow-lg text-[24px] text-white" />
                 <span className="hidden lg:block text-white hover:text-purple-200">
                   {link.title}
                 </span>
-                <link.icon className="lg:hidden filter drop-shadow-lg text-[24px] text-white" />
               </a>
             </li>
           ))}
