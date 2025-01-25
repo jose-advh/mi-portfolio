@@ -25,7 +25,7 @@ const pagesItems = [
 
 const Header = () => {
   return (
-    <header className="w-95 lg:w-2/4 bg-blue-900/75 m-auto rounded-md shadow-lg shadow-blue-900 fixed left-0 right-0">
+    <header className="w-95 lg:w-fit bg-blue-900/75 m-auto rounded-md shadow-lg shadow-blue-900 fixed left-0 right-0">
       <nav className="flex justify-around py-2 px-6">
         <ul className="flex gap-5 items-center">
           {pagesItems.map((link) => (
