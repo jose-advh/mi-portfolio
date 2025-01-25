@@ -1,13 +1,16 @@
 const Button = (props) => {
-  const { text, icon, redirect, radius } = props;
+  const { text, icon, redirect, radius, arial } = props;
 
   return (
     <a
-      className="flex gap-2 bg-blue-900 p-2 text-white"
+      className="flex items-center gap-2 bg-blue-900 p-2 text-white"
       style={{ borderRadius: radius }}
-      href="#"
+      href={redirect}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={arial}
     >
-      <img src="/imgs/icons/email.svg" className="w-[20px]" alt="" />
+      <img src={icon} className="w-[16px]" alt="Icono" />
       {text}
     </a>
   );

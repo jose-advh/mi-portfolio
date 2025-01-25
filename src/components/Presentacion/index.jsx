@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const Presentacion = () => {
   return (
-    <article className="flex flex-col items-start justify-start pt-20 lg:pt-0 lg:justify-center gap-3 h-screen w-full lg:m-auto lg:w-[85%]">
+    <article className="flex flex-col items-start justify-start pt-20 lg:pt-0 lg:justify-center gap-3 h-[90vh] w-full lg:m-auto lg:w-[80%]">
       <section className="flex items-center gap-5">
         <img
           className="rounded-full w-20 lg:w-25"
@@ -13,9 +13,6 @@ const Presentacion = () => {
         <a
           className="text-gray-300 bg-blue-900 py-1 px-3 rounded-xl shadow-lg shadow-blue-900"
           href="https://www.linkedin.com/in/jos%C3%A9-d%C3%ADaz-3074b9316/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Visitar perfil de LinkedIn de José Díaz"
         >
           Disponible para trabajar
         </a>
@@ -35,16 +32,18 @@ const Presentacion = () => {
       <section className="flex gap-3">
         <Button
           text="Contáctame"
-          icon="@"
+          icon="/imgs/icons/email.svg"
           alt="manglayang studio"
-          redirect="https://porfolio.dev/"
+          redirect="#"
+          arial="Enviar correo electronico a José Díaz"
           radius="15px"
         />
         <Button
           text="LinkedIn"
-          icon="@"
+          icon="/imgs/icons/linkedin.svg"
+          arial="Visitar Linkedin de José Díaz"
           alt="manglayang studio"
-          redirect="https://porfolio.dev/"
+          redirect="https://www.linkedin.com/in/jos%C3%A9-d%C3%ADaz-3074b9316/"
           radius="15px"
         />
       </section>
