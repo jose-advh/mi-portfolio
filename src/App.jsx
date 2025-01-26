@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Header />
-      <Presentacion />
+      <main>
+        <Presentacion />
+      </main>
     </>
   );
 }

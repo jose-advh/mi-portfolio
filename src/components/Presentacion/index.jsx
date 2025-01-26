@@ -6,7 +6,7 @@ const Presentacion = () => {
     <article className="flex flex-col items-start justify-start pt-20 lg:pt-0 lg:justify-center gap-3 h-[90vh] w-full lg:m-auto lg:w-[80%]">
       <section className="flex items-center gap-5">
         <img
-          className="rounded-full w-20 lg:w-25"
+          className="custom-border w-20 lg:w-30"
           src={FotoJose}
           alt="Fotografia de José Díaz"
         />

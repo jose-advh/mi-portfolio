@@ -5,19 +5,19 @@ import { RiMailAiLine } from "react-icons/ri";
 const pagesItems = [
   {
     title: "Projects",
-    url: "/",
+    url: "#",
     icon: FaCode,
     arial: "projects",
   },
   {
     title: "About me",
-    url: "/",
+    url: "#",
     icon: GoPerson,
     arial: "aboutme",
   },
   {
     title: "Contact",
-    url: "/",
+    url: "#",
     icon: RiMailAiLine,
     arial: "contact",
   },
@@ -31,7 +31,10 @@ const Header = () => {
           {pagesItems.map((link) => (
             <li key={link.arial}>
               <a href={link.url} className="flex gap-3 items-center">
-                <link.icon className="filter drop-shadow-lg text-[24px] text-white" />
+                <link.icon
+                  className="filter drop-shadow-lg text-[24px] text-white"
+                  alt={link.arial}
+                />
                 <span className="hidden lg:block text-white hover:text-purple-200">
                   {link.title}
                 </span>
