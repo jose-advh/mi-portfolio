@@ -14,14 +14,14 @@ const Presentacion = () => {
           alt="Fotografia de José Díaz"
         />
         <a
-          className="text-gray-300 bg-blue-900 py-1 px-3 rounded-xl shadow-lg shadow-blue-900"
+          className="text-[15px] text-gray-300 bg-blue-900 py-2 px-1 rounded-xl shadow-lg shadow-blue-900"
           href="https://www.linkedin.com/in/jos%C3%A9-d%C3%ADaz-3074b9316/"
         >
           Disponible para trabajar
         </a>
       </section>
       <section className="flex flex-col items-start gap-2">
-        <h2 className="text-4xl text-gray-200 font-bold text-start">
+        <h2 className="text-3xl text-gray-200 font-bold text-start">
           Hey, soy José Díaz
         </h2>
         <p className="text-[20px] max-w-full lg:text-2xl lg:w-[40rem] text-gray-300 text-start">

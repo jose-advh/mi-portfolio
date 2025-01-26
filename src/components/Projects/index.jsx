@@ -17,14 +17,16 @@ const Projects = () => {
           url="https://space-app.com"
           technologies={["React", "JavaScript", "HTML/CSS"]}
         />
-        {/* <Card
-          id="2"
-          name="Simu App"
-          description="A web app that displays information about planets in our solar system"
-          image="/imgs/projects/simu-app.webp"
-          url="https://space-app.com"
-          technologies={["NodeJS", "JavaScript", "HTML/CSS"]}
-        /> */}
+        {
+          <Card
+            id="2"
+            name="Petshop"
+            description="A web app that displays information about planets in our solar system"
+            image="/imgs/projects/petshop.webp"
+            url="https://petshop-pi-blue.vercel.app/"
+            technologies={["React", "JavaScript", "HTML/CSS"]}
+          />
+        }
       </article>
     </section>
   );
