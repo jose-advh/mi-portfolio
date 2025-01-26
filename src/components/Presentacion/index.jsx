@@ -3,10 +3,10 @@ import Button from "../Button";
 
 const Presentacion = () => {
   return (
-    <article className="flex flex-col items-start justify-start pt-20 lg:pt-0 lg:justify-center gap-3 h-[90vh] w-full lg:m-auto lg:w-[80%]">
+    <article className="flex flex-col items-start justify-start pt-22 lg:pt-0 lg:justify-center gap-3 h-[65vh] lg:h-screen w-full lg:m-auto">
       <section className="flex items-center gap-5">
         <img
-          className="custom-border w-20 lg:w-30"
+          className="custom-border w-25 lg:w-30"
           src={FotoJose}
           alt="Fotografia de José Díaz"
         />
@@ -18,7 +18,7 @@ const Presentacion = () => {
         </a>
       </section>
       <section className="flex flex-col items-start gap-2">
-        <h2 className="text-3xl text-gray-200 font-bold text-start">
+        <h2 className="text-4xl text-gray-200 font-bold text-start">
           Hey, soy José Díaz
         </h2>
         <p className="text-[20px] max-w-full lg:text-2xl lg:w-[40rem] text-gray-300 text-start">
