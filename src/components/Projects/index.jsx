@@ -11,7 +11,7 @@ const Projects = () => {
           id="1"
           name="Space App"
           description="A web app that displays information about planets in our solar system"
-          image="https://porfolio.dev/projects/adventjs.webp"
+          image="/imgs/projects/space-app.webp"
           url="https://space-app.com"
           technologies={["React", "JavaScript", "HTML/CSS"]}
         />
@@ -19,7 +19,7 @@ const Projects = () => {
           id="2"
           name="Simu App"
           description="A web app that displays information about planets in our solar system"
-          image="https://porfolio.dev/projects/svgl.webp"
+          image="/imgs/projects/simu-app.webp"
           url="https://space-app.com"
           technologies={["NodeJS", "JavaScript", "HTML/CSS"]}
         />

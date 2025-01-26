@@ -1,6 +1,7 @@
 import { GoPerson } from "react-icons/go";
 import { FaCode } from "react-icons/fa6";
 import { RiMailAiLine } from "react-icons/ri";
+import { useState, useEffect } from "react";
 
 const pagesItems = [
   {
@@ -23,11 +24,38 @@ const pagesItems = [
   },
 ];
 
+// TO-DO: Cuando se haga scroll aparezca la foto en el nav
+
 const Header = () => {
+  const [showPhoto, setShowPhoto] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowPhoto(window.scrollY > window.innerHeight * 0.6);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="w-fit bg-blue-900/75 m-auto rounded-xl fixed left-0 right-0">
+    <header className="z-3 w-fit bg-blue-900/75 m-auto rounded-xl fixed left-0 right-0">
       <nav className="flex justify-around py-2 px-6">
-        <ul className="flex gap-9 items-center">
+        <ul id="nav-list" className="flex gap-9 items-center">
+          {showPhoto && (
+            <li>
+              <a href="#">
+                <img
+                  src="/imgs/FotoJose.webp"
+                  alt="Fotografía de José Díaz"
+                  className="w-[24px] "
+                />
+              </a>
+            </li>
+          )}
           {pagesItems.map((link) => (
             <li key={link.arial}>
               <a href={link.url} className="flex gap-3 items-center">
