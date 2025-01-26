@@ -3,7 +3,10 @@ import Button from "../Button";
 
 const Presentacion = () => {
   return (
-    <article className="flex flex-col items-start justify-start pt-22 lg:pt-0 lg:justify-center gap-3 h-[65vh] lg:h-screen w-full lg:m-auto">
+    <article
+      id="presentacion"
+      className="flex flex-col items-start justify-start pt-22 lg:pt-0 lg:justify-center gap-3 h-[65vh] lg:h-screen w-full lg:m-auto"
+    >
       <section className="flex items-center gap-5">
         <img
           className="custom-border w-25 lg:w-35"
@@ -23,7 +26,9 @@ const Presentacion = () => {
         </h2>
         <p className="text-[20px] max-w-full lg:text-2xl lg:w-[40rem] text-gray-300 text-start">
           1 año de experiencia.{" "}
-          <span className="font-bold text-red-400">Ingeniero de Sistemas </span>
+          <span className="font-bold text-green-400">
+            Ingeniero de Sistemas{" "}
+          </span>
           Especializado en crear aplicaciones web con React, Node.js y MongoDB.
         </p>
       </section>

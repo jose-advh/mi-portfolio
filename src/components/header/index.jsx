@@ -28,7 +28,6 @@ const pagesItems = [
 
 const Header = () => {
   const [showPhoto, setShowPhoto] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setShowPhoto(window.scrollY > window.innerHeight * 0.6);
@@ -41,13 +40,26 @@ const Header = () => {
     };
   }, []);
 
+  const handleScroll = (id, e) => {
+    e.preventDefault();
+    const seccion = document.getElementById(id);
+    console.log(seccion);
+    seccion.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
-    <header className="z-3 w-fit bg-blue-900/75 m-auto rounded-xl fixed left-0 right-0">
+    <header className="z-3 w-fit bg-blue-900/75 m-auto rounded-xl fixed left-0 right-0 top-4 shadow shadow-blue-800">
       <nav className="flex justify-around py-2 px-6">
         <ul id="nav-list" className="flex gap-9 items-center">
           {showPhoto && (
             <li>
-              <a href="#">
+              <a
+                href="#presentacion"
+                onClick={(e) => handleScroll("presentacion", e)}
+              >
                 <img
                   src="/imgs/FotoJose.webp"
                   alt="Fotografía de José Díaz"
@@ -58,7 +70,11 @@ const Header = () => {
           )}
           {pagesItems.map((link) => (
             <li key={link.arial}>
-              <a href={link.url} className="flex gap-3 items-center">
+              <a
+                href={link.url}
+                onClick={(e) => handleScroll(link.arial, e)}
+                className="flex gap-3 items-center"
+              >
                 <link.icon
                   className="filter drop-shadow-lg text-[24px] text-white"
                   alt={link.arial}
