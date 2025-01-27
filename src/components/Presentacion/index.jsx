@@ -5,7 +5,7 @@ const Presentacion = () => {
   return (
     <article
       id="presentacion"
-      className="flex flex-col items-start justify-start pt-22 lg:pt-0 lg:justify-center gap-3 h-[65vh] xl:h-screen w-full md:h-fit lg:m-auto"
+      className="flex flex-col items-start justify-start pt-22 lg:pt-0 lg:justify-center gap-3 h-[75vh] xl:h-[70vh] w-full md:h-fit lg:m-auto"
     >
       <section className="flex items-center gap-5">
         <img
@@ -32,7 +32,7 @@ const Presentacion = () => {
           Especializado en crear aplicaciones web con React, Node.js y MongoDB.
         </p>
       </section>
-      <section className="flex gap-3">
+      <section className="flex flex-wrap gap-3">
         <Button
           text="Contáctame"
           icon="/imgs/icons/email.svg"
@@ -49,6 +49,12 @@ const Presentacion = () => {
           redirect="https://www.linkedin.com/in/jos%C3%A9-d%C3%ADaz-3074b9316/"
           radius="15px"
         />
+        <p
+          className="text-[15px] text-gray-300 bg-blue-900 py-2 px-2 lg:px-3 rounded-xl"
+          href="https://www.linkedin.com/in/jos%C3%A9-d%C3%ADaz-3074b9316/"
+        >
+          josearmandodiazh3@gmail.com
+        </p>
       </section>
     </article>
   );

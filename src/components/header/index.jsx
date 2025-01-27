@@ -51,8 +51,8 @@ const Header = () => {
   };
 
   return (
-    <header className="z-3 w-fit bg-blue-900/75 m-auto rounded-xl fixed left-0 right-0 top-4 shadow shadow-blue-800">
-      <nav className="flex justify-around py-2 px-6">
+    <header className="z-3 w-[100%] flex items-center fixed left-0 right-0 top-4">
+      <nav className="w-fit bg-blue-900/75 m-auto rounded-xl shadow shadow-blue-800  flex justify-around py-2 px-6">
         <ul id="nav-list" className="flex gap-9 items-center">
           {showPhoto && (
             <li>
