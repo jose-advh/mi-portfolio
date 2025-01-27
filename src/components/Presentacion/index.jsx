@@ -25,9 +25,9 @@ const Presentacion = () => {
           Hey, soy José Díaz
         </h2>
         <p className="text-[20px] max-w-full lg:text-2xl lg:w-[40rem] text-gray-300 text-start">
-          1 año de experiencia.{" "}
+          Estudiante de{" "}
           <span className="font-bold text-green-400">
-            Ingeniero de Sistemas{" "}
+            Ingeniería de Sistemas{" "}
           </span>
           Especializado en crear aplicaciones web con React, Node.js y MongoDB.
         </p>
