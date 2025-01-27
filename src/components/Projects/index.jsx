@@ -1,13 +1,12 @@
 import Card from "./Cards";
+import Title from "../Title";
 
 // TO-DO: Realizar view more si hay mas de 4 y en moviles 3.
 
 const Projects = () => {
   return (
     <section id="projects" className="flex flex-col gap-9">
-      <h2 className="flex items-start text-gray-300 text-3xl font-bold">
-        &lt;<span className="text-green-400">Projects</span>&nbsp;/&gt;
-      </h2>
+      <Title title="Projects" />
       <article className="flex flex-wrap justify-evenly gap-3">
         <Card
           id="1"

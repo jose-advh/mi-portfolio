@@ -63,7 +63,7 @@ const Header = () => {
                 <img
                   src="/imgs/FotoJose.webp"
                   alt="Fotografía de José Díaz"
-                  className="w-[24px] "
+                  className="w-[24px] rounded"
                 />
               </a>
             </li>
