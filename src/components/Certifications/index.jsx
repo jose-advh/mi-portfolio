@@ -4,17 +4,17 @@ const Certifications = () => {
       <img
         src="/imgs/certifications/prueba.png"
         alt="Certificado oracle"
-        className="w-35"
+        className="w-35 lg:w-65"
       />
       <img
         src="/imgs/certifications/prueba.png"
         alt="Certificado oracle"
-        className="rounded w-35"
+        className="rounded w-35 lg:w-65"
       />
       <img
         src="/imgs/certifications/prueba.png"
         alt="Certificado oracle"
-        className="rounded w-35"
+        className="rounded w-35 lg:w-65"
       />
     </article>
   );
