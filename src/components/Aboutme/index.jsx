@@ -4,11 +4,11 @@ const Aboutme = () => {
   return (
     <section
       id="aboutme"
-      className="flex flex-col justify-center items-start gap-10 pt-12"
+      className="flex flex-col justify-center items-start gap-10 pt-15 lg:pt-12"
     >
       <Title title="About-me" />
       <article className="flex flex-col items-center lg:flex-row justify-between text-start w-[100%] lg:w-[90%] m-auto text-white gap-5">
-        <section className="flex flex-col text-[17px] lg:order-1 order-2 gap-4 w-[100%] lg:w-[70%] ">
+        <section className="flex flex-col pt-3 lg:pt-0 text-[17px] lg:order-1 order-2 gap-4 w-[100%] lg:w-[70%] ">
           <p className="rounded px-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur quod saepe ipsum aliquam omnis, voluptatibus vel
