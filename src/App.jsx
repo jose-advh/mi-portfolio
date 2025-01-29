@@ -4,9 +4,16 @@ import Projects from "./components/Projects";
 import Presentacion from "./components/Presentacion";
 import Aboutme from "./components/Aboutme";
 import Footer from "./components/Footer";
+import { useState } from "react";
 import Certifications from "./components/Certifications";
 
 function App() {
+  const [modalAbierto, setModalAbierto] = useState(true);
+
+  const abrirModal = () => {
+    setModalAbierto(true);
+  };
+
   return (
     <>
       <Header />
@@ -14,7 +21,11 @@ function App() {
         <Presentacion />
         <Projects />
         <Aboutme />
-        <Certifications />
+        <Certifications
+          modalAbierto={modalAbierto}
+          setModalAbierto={setModalAbierto}
+          abrirModal={abrirModal}
+        />
       </main>
       <Footer />
     </>
