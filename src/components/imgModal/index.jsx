@@ -4,17 +4,26 @@ const ImgModal = (props) => {
       {props.modalAbierto && (
         <dialog
           open
-          className="z-1 fixed w-[75%] top-45 left-0 right-0 m-auto lg:w-[30%]"
+          className="z-1 fixed w-[75%] top-0 bottom-0 left-0 right-0 m-auto lg:w-[40%]"
         >
           <figure className="bg-blue-200">
             <img
               className="bg-transparent"
-              src="/imgs/certifications/prueba.png"
+              src="/imgs/certifications/certificado-oracle-alura.jpeg"
               alt="Certificado Oracle Next Generaiton"
             />
           </figure>
           <form method="dialog">
-            <button onClick={() => props.setModalAbierto(false)}>Cerrar</button>
+            <button
+              className="fixed top-[20%] right-[31%] bg-black/50 p-2 rounded-xl"
+              onClick={() => props.setModalAbierto(false)}
+            >
+              <img
+                className="cursor-pointer"
+                src="/imgs/icons/cerrar.png"
+                alt="Cerrar"
+              />
+            </button>
           </form>
         </dialog>
       )}

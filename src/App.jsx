@@ -8,7 +8,7 @@ import { useState } from "react";
 import Certifications from "./components/Certifications";
 
 function App() {
-  const [modalAbierto, setModalAbierto] = useState(true);
+  const [modalAbierto, setModalAbierto] = useState(false);
 
   const abrirModal = () => {
     setModalAbierto(true);
