@@ -15,7 +15,7 @@ const ImgModal = (props) => {
           </figure>
           <form method="dialog">
             <button
-              className="fixed top-[20%] right-[31%] bg-black/50 p-2 rounded-xl"
+              className="fixed top-[38%] right-[15%] lg:top-[20%] lg:right-[31%] bg-black/50 p-2 rounded-xl"
               onClick={() => props.setModalAbierto(false)}
             >
               <img

@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="flex flex-col md:gap-8 lg:w-[85%] m-auto">
+      <main className="flex flex-col md:gap-8 lg:w-[95%] m-auto">
         <Presentacion />
         <Projects />
         <Aboutme />

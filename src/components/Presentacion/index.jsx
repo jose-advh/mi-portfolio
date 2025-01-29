@@ -1,5 +1,6 @@
 import FotoJose from "/imgs/FotoJose.webp";
 import Button from "../Button";
+import Certifications from "../Certifications";
 
 const Presentacion = () => {
   return (
