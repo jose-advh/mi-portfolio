@@ -16,11 +16,6 @@ function App() {
 
   return (
     <>
-      <img
-        src="/imgs/backgrounds/space.png"
-        className="fixed opacity-30 h-screen w-[100%] left-0 right-0 top-0"
-        alt="Stars"
-      />
       <Header />
       <main className="flex flex-col gap-8 lg:w-[85%] m-auto">
         <Presentacion />
