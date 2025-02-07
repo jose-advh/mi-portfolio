@@ -14,7 +14,7 @@ const Card = (props) => {
       <header className="z-3 font-bold text-2xl">
         <h2>{props.name}</h2>
       </header>
-      <section className="z-3">
+      <section className="z-3 px-2">
         <p>{props.description}</p>
       </section>
       <footer className="z-3 flex gap-2 justify-start items-start w-70 py-3 lg:gap-3 lg:w-90 lg:py-2">

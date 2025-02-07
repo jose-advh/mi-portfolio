@@ -36,14 +36,6 @@ const Presentacion = () => {
       </section>
       <section className="flex flex-wrap gap-3">
         <Button
-          text="Contáctame"
-          icon="/imgs/icons/email.svg"
-          alt="manglayang studio"
-          redirect="#"
-          arial="Enviar correo electronico a José Díaz"
-          radius="15px"
-        />
-        <Button
           text="LinkedIn"
           icon="/imgs/icons/linkedin.svg"
           arial="Visitar Linkedin de José Díaz"
