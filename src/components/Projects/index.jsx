@@ -11,7 +11,7 @@ const Projects = () => {
         <Card
           id="3"
           name="Simu Icfes"
-          description="A web to take mock exams for the Saber 11 test administered in Colombia."
+          description="Ofrece simulacros interactivos que ayudan a la familiarización del estudiante con la prueba Saber 11"
           image="/imgs/projects/simu-app.webp"
           code="https://github.com/jose-advh/simu_app"
           technologies={["React", "JavaScript", "HTML/CSS"]}
@@ -19,7 +19,7 @@ const Projects = () => {
         <Card
           id="2"
           name="Petshop"
-          description="A web that offers information and resources about pets, including care tips"
+          description="Ofrece información sobre el cuidado de los perros y también consejos sobre estos"
           image="/imgs/projects/petshop.webp"
           url="https://petshop-pi-blue.vercel.app/"
           code="https://github.com/jose-advh/petshop"
@@ -28,7 +28,7 @@ const Projects = () => {
         <Card
           id="1"
           name="Space App"
-          description="A web app that displays information about planets in our solar system"
+          description="Una galeria que muestra imagenes sobre el espacio, universos, estrellas etc..."
           image="/imgs/projects/space-app.webp"
           url="https://space-app-one-zeta.vercel.app/"
           code="https://github.com/jose-advh/space-app"

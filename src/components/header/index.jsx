@@ -5,13 +5,13 @@ import { useState, useEffect } from "react";
 
 const pagesItems = [
   {
-    title: "Projects",
+    title: "Proyectos",
     url: "#",
     icon: FaCode,
     arial: "projects",
   },
   {
-    title: "About me",
+    title: "Sobre mí",
     url: "#",
     icon: GoPerson,
     arial: "aboutme",
@@ -86,10 +86,10 @@ const Header = () => {
             >
               <RiMailAiLine
                 className="filter drop-shadow-lg text-[24px] text-white"
-                alt="contact"
+                alt="Contacto"
               />
               <span className="hidden lg:block text-white hover:text-purple-200">
-                Contact
+                Contacto
               </span>
             </a>
           </li>
