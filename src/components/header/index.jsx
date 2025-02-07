@@ -16,12 +16,6 @@ const pagesItems = [
     icon: GoPerson,
     arial: "aboutme",
   },
-  {
-    title: "Contact",
-    url: "#",
-    icon: RiMailAiLine,
-    arial: "contact",
-  },
 ];
 
 // TO-DO: Cuando se haga scroll aparezca la foto en el nav
@@ -85,6 +79,20 @@ const Header = () => {
               </a>
             </li>
           ))}
+          <li key="contact">
+            <a
+              href="mailto:josearmandodiazh3@gmail.com"
+              className="flex gap-3 items-center"
+            >
+              <RiMailAiLine
+                className="filter drop-shadow-lg text-[24px] text-white"
+                alt="contact"
+              />
+              <span className="hidden lg:block text-white hover:text-purple-200">
+                Contact
+              </span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
