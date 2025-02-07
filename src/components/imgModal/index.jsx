@@ -9,7 +9,7 @@ const ImgModal = (props) => {
           <figure className="bg-blue-200">
             <img
               className="bg-transparent"
-              src="/imgs/certifications/certificado-oracle-alura.jpeg"
+              src="/imgs/certifications/certificado-oracle-alura.webp"
               alt="Certificado Oracle Next Generaiton"
             />
           </figure>

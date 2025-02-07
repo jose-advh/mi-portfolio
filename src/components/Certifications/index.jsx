@@ -12,18 +12,6 @@ const Certifications = (props) => {
           alt="Certificado oracle"
           className="w-40 cursor-pointer"
         />
-        <img
-          onClick={props.abrirModal}
-          src="/imgs/certifications/prueba.png"
-          alt="Certificado oracle"
-          className="w-40 cursor-pointer"
-        />
-        <img
-          onClick={props.abrirModal}
-          src="/imgs/certifications/prueba.png"
-          alt="Certificado oracle"
-          className="w-40 cursor-pointer"
-        />
       </section>
       <ImgModal
         modalAbierto={props.modalAbierto}

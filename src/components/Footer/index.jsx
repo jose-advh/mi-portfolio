@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="mt-10">
-      <ul className="flex w-[90%] m-auto items-center justify-between text-blue-200">
+    <footer className="mt-10 w-[72.5%] m-auto">
+      <ul className="flex items-center justify-between text-blue-200">
         <li>
           <a href="#">Contacto</a>
         </li>

@@ -16,22 +16,27 @@ function App() {
 
   return (
     <>
+      <img
+        src="/imgs/backgrounds/space.png"
+        className="fixed opacity-30 h-screen w-[100%] left-0 right-0 top-0"
+        alt="Stars"
+      />
       <Header />
-      <main className="flex flex-col md:gap-8 lg:w-[95%] m-auto">
+      <main className="flex flex-col gap-8 lg:w-[85%] m-auto">
         <Presentacion />
         <Projects />
         <Aboutme />
-        <Certifications
-          modalAbierto={modalAbierto}
-          setModalAbierto={setModalAbierto}
-          abrirModal={abrirModal}
-        />
       </main>
       <Footer />
     </>
   );
 }
 
-// Fixed
-
 export default App;
+{
+  /* <Certifications
+  modalAbierto={modalAbierto}
+  setModalAbierto={setModalAbierto}
+  abrirModal={abrirModal}
+/> */
+}

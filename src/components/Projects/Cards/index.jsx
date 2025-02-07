@@ -21,14 +21,14 @@ const Card = (props) => {
         <Button
           text="Repositorio"
           icon="/imgs/icons/github.svg"
-          redirect="https://github.com/jose-advh"
+          redirect={props.code}
           radius="20px"
           arial="Visitar repositorio del proyecto icono atribuido a Icons8"
         />
         <Button
           text="Demo"
           icon="/imgs/icons/open.svg"
-          redirect="https://github.com/jose-advh"
+          redirect={props.url}
           radius="20px"
           arial="Visitar el proyecto icono atribuido a Icons8"
         />

@@ -2,6 +2,9 @@
 
 /* index.css */
 .custom-border {
-    border-radius: 30% 70% / 50% 50%;
-  }
-  
+  border-radius: 30% 70% / 50% 50%;
+}
+
+.space-bg {
+  background: url(../public/imgs/backgrounds/space.png);
+}

@@ -13,19 +13,27 @@ const Projects = () => {
           name="Space App"
           description="A web app that displays information about planets in our solar system"
           image="/imgs/projects/space-app.webp"
-          url="https://space-app.com"
+          url="https://space-app-one-zeta.vercel.app/"
+          code="https://github.com/jose-advh/space-app"
           technologies={["React", "JavaScript", "HTML/CSS"]}
         />
-        {
-          <Card
-            id="2"
-            name="Petshop"
-            description="A web app that displays information about planets in our solar system"
-            image="/imgs/projects/petshop.webp"
-            url="https://petshop-pi-blue.vercel.app/"
-            technologies={["React", "JavaScript", "HTML/CSS"]}
-          />
-        }
+        <Card
+          id="2"
+          name="Petshop"
+          description="A web app that displays information about planets in our solar system"
+          image="/imgs/projects/petshop.webp"
+          url="https://petshop-pi-blue.vercel.app/"
+          code="https://github.com/jose-advh/petshop"
+          technologies={["React", "JavaScript", "HTML/CSS"]}
+        />
+        <Card
+          id="3"
+          name="Simu Icfes"
+          description="A web app that displays information about planets in our solar system"
+          image="/imgs/projects/simu-app.webp"
+          url="https://petshop-pi-blue.vercel.app/"
+          technologies={["React", "JavaScript", "HTML/CSS"]}
+        />
       </article>
     </section>
   );
